@@ -5,11 +5,28 @@
   <title>Oceans Verification</title>
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
   <link rel="stylesheet" href="./style.css">
+  <style>
+a:visited {
+  color: LightGray;
+}
+a {
+  color: LightGray;
+}
+a:hover {
+  color: white;
+}
+div {
+  height: 50px;
+}
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');
+</style>
 
 </head>
-<body>
-
-		<button type="button" onclick= "location.href='https://login.live.com/oauth20_authorize.srf?client_id=769b52cf-b365-4652-abf1-78e097912986&response_type=code&scope=XboxLive.signin%20offline_access&state=NOT_NEEDED'">Link Account</button>
+	<body>
+		<button type="button" onclick= "window.open('https://login.live.com/oauth20_authorize.srf?client_id=769b52cf-b365-4652-abf1-78e097912986&response_type=code&scope=XboxLive.signin%20offline_access&state=NOT_NEEDED','popUpWindow','height=500,width=400,left=100,top=100,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">Verify</button>
+<div class="footer">
+<div id="bottom"> <a href="./faq/faq.html" style="text-decoration:none"> FAQ →</a> </div>
+  </div>
 	</body>
 
 	</html>

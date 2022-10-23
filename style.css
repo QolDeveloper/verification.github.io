@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: #212121;
 }
 
 button {
@@ -19,7 +19,7 @@ button {
   font-size: 22px;
   text-transform: uppercase;
   text-decoration: none;
-  font-family: sans-serif;
+  font-family: 'Proxima Nova', sans-serif;
   box-sizing: border-box;
   background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
   background-size: 400%;
@@ -67,4 +67,16 @@ button:hover:before {
   animation: animate 8s linear infinite;
 	animate: 0.5s;
 	transition: 0.5s;
+}
+.footer{
+  padding: 70px 0;
+  text-align: center;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
